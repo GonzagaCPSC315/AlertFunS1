@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // task: in IB, add a UITextField that is as wide as the iPhone SE screen
+    // ignore any runtime warnings...
+    // add a Button underneath the TextField that says "Echo Back"
+    // wire up the connections for an IBOutlet and IBAction
 
     override func viewDidLoad() {
         super.viewDidLoad()
