@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var textField: UITextField!
+    
+    @IBAction func echoBackPressed(_ sender: UIButton) {
+        if let text = textField.text {
+            print(text)
+        }
+    }
     // task: in IB, add a UITextField that is as wide as the iPhone SE screen
     // ignore any runtime warnings...
     // add a Button underneath the TextField that says "Echo Back"
