@@ -24,6 +24,8 @@ class ViewController: UIViewController {
             // lets add a UIAlertAction to our alert dialog
             alertController.addAction(UIAlertAction(title: "Okay", style: .default, handler: { (action) -> Void in
                 print("User pressed okay")
+                // clear the text in the textfield
+                self.textField.text = ""
             }))
             // show the alert with present()
             present(alertController, animated: true, completion: { () -> Void in
